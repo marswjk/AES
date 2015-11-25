@@ -13,7 +13,9 @@ int main(int argc, char* argv[])
         0x03, 0x04, 0x05, 0x06
     };
     Ead_Aes aes(key);
-    QString ke = "dfsfasdjuiko5696385f";
-	aes.QDecrypt(aes.QEncryption(ke));
+    QString mingw = "dfsfasdjuiko5696385f";
+	QString aft = aes.QDecrypt(aes.QEncryption(mingw));
+
+
     return a.exec();
 }
